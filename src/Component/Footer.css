@@ -1,0 +1,376 @@
+#footer {
+  background: #262b46;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+#footer .footerText {
+  padding: 10vh 5% 5vh 5%;
+}
+#footer .footerText h3 {
+  font-size: 2em;
+  padding-bottom: 3vh;
+}
+#footer .footerText p {
+  font-size: 1.2em;
+  margin-bottom: 10vh;
+  width: 70%;
+}
+#footer .footerText .lineBreak {
+  display: block;
+  padding-top: 3vh;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+#footer .footerBottomWrap {
+  color: black;
+  background: #0d0f18;
+  list-style: none;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: none;
+  padding: 2vh 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#footer .footerPhoto {
+  height: auto;
+  bottom: -1.5em;
+  right: 0em;
+  position: absolute;
+}
+#footer .footerBottomWrap h3 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  font-weight: 500;
+  font-family: "Berkshire Swash", cursive;
+}
+#footer ul {
+  list-style-type: none;
+}
+#footer ul li {
+  padding: 0 1.4em;
+}
+#footer .footerLinksWrap {
+  padding: 1vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+#footer .footerLinksWrap a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: all 0.5s ease;
+}
+#footer .footerLinksWrap a:hover {
+  color: #87c4a4;
+}
+#footer .socialIconsWrap {
+  padding: 1vh 2%;
+  display: flex;
+  align-items: center;
+}
+#footer .socialIconsWrap i {
+  transition: all 0.5s ease;
+  font-size: 1.8em;
+  color: #87c4a4;
+}
+#footer .socialIconsWrap i:hover {
+  color: white;
+}
+#footer .fa-twitter {
+  -webkit-animation: swing 1s infinite ease-in-out;
+  -moz-animation: swing 1s infinite ease-in-out;
+  -o-animation: swing 1s infinite ease-in-out;
+  animation: swing 1s infinite ease-in-out;
+}
+
+/* social icons animation in different browsers */
+@-webkit-keyframes swing {
+  50% {
+    transform: rotate(25deg) translateX(-15%);
+  }
+}
+@-moz-keyframes swing {
+  50% {
+    transform: rotate(25deg) translateX(-15%);
+  }
+}
+@-o-keyframes swing {
+  50% {
+    transform: rotate(25deg) translateX(-15%);
+  }
+}
+@keyframes swing {
+  50% {
+    transform: rotate(25deg) translateX(-15%);
+  }
+}
+
+#footer .fa-facebook {
+  -webkit-animation: zoom 1.1s infinite;
+  -moz-animation: zoom 1.1s infinite;
+  -o-animation: zoom 1.1s infinite;
+  animation: zoom 1.1s infinite;
+}
+@keyframes zoom {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes zoom {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@-moz-keyframes zoom {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@-o-keyframes zoom {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@keyframes zoom {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+#footer .fa-instagram {
+  -webkit-animation: shake 0.8s infinite ease-in-out;
+  -moz-animation: shake 0.8s infinite ease-in-out;
+  -o-animation: shake 0.8s infinite ease-in-out;
+  animation: shake 0.8s infinite ease-in-out;
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+@-webkit-keyframes shake {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+@-moz-keyframes shake {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+@-o-keyframes shake {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+.arrowToTopWrap {
+  position: relative;
+  transition: 1s ease-in;
+  text-align: center;
+  width: 95%;
+}
+.toTopArrow {
+  font-size: 2em;
+  bottom: 2em;
+  position: absolute;
+  color: white;
+  -webkit-animation: bottom-animation 1.5s infinite;
+  -moz-animation: bottom-animation 1.5s infinite;
+  -o-animation: bottom-animation 1.5s infinite;
+  animation: bottom-animation 1.5s infinite;
+}
+@-webkit-keyframes bottom-animation {
+  0% {
+    bottom: 0;
+    opacity: 0.1;
+  }
+  50% {
+    bottom: 20px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 0;
+    opacity: 0.1;
+  }
+}
+@-moz-keyframes bottom-animation {
+  0% {
+    bottom: 0;
+    opacity: 0.1;
+  }
+  50% {
+    bottom: 20px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 0;
+    opacity: 0.1;
+  }
+}
+@-o-keyframes bottom-animation {
+  0% {
+    bottom: 0;
+    opacity: 0.1;
+  }
+  50% {
+    bottom: 20px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 0;
+    opacity: 0.1;
+  }
+}
+@keyframes bottom-animation {
+  0% {
+    bottom: 0;
+    opacity: 0.1;
+  }
+  50% {
+    bottom: 20px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 0;
+    opacity: 0.1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #footer .footerBottomWrap {
+    grid-template-columns: 1fr;
+  }
+  #footer .footerPhoto {
+    display: none;
+  }
+  #footer .footerText p {
+    font-size: 1em;
+  }
+  #footer .footerLinksWrap {
+    text-align: center;
+  }
+  #footer .footerLinksWrap a {
+    font-size: 1em;
+  }
+  #footer .socialIconsWrap {
+    justify-content: center;
+  }
+  #footer .footerText {
+    text-align: center;
+  }
+  #footer .footerText p {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+  }
+  #footer .toTopArrow {
+    animation: none;
+    position: static;
+  }
+  #footer .arrowToTopWrap {
+    position: static;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  #footer .footerBottomWrap {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  #footer .footerPhoto {
+    display: none;
+  }
+  #footer .footerText p {
+    font-size: 1em;
+  }
+  #footer .footerLinksWrap a {
+    font-size: 1em;
+  }
+  #footer .socialIconsWrap {
+    justify-content: center;
+  }
+  #footer .footerText {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #footer .footerText p {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+  }
+  #footer .arrowToTopWrap {
+    position: static;
+    margin: 0 auto;
+  }
+  #footer .toTopArrow {
+    animation: none;
+    position: static;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+  }
+  #footer .footerLinksWrap a {
+    font-size: 0.8em;
+  }
+  #footer ul li {
+    padding: 0 0.5em;
+  }
+  #footer .socialIconsWrap i {
+    font-size: 1.4em;
+  }
+}
